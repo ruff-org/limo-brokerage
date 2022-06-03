@@ -1,0 +1,7 @@
+{
+    "name": "blazed-labs/ice",
+    "description": "This package constitutes the main utilities for most Blazed websites.",
+    "require": {
+        "php": ">=7.4"
+    }
+}

@@ -1,0 +1,12 @@
+node_modules
+lib/fuel/*
+composer.lock
+package-lock.json
+
+src/public/assets/dist/js/*
+!src/public/assets/dist/js/README.md
+src/public/assets/dist/css/*
+!src/public/assets/dist/css/README.md
+
+src/app/logs/20*
+src/app/cache/FuelFileFinder.pathcache

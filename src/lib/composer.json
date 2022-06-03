@@ -1,0 +1,39 @@
+{
+    "name": "blazed-space/blz-ice-php",
+    "type": "project",
+    "description" : "Template for FuelPHP made by Blazed Labs.",
+    "keywords": ["application", "website", "development", "framework", "PHP", "PHP8"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0",
+        "fuel/core": "1.8.*",
+        "fuel/auth": "1.8.*",
+        "fuel/email": "1.8.*",
+        "fuel/oil": "1.8.*",
+        "fuel/orm": "1.8.*",
+        "fuel/parser": "1.8.*",
+        "fuelphp/upload": "2.0.6",
+        "dotsunited/bundlefu": "^1.0",
+        "delight-im/auth": "^8.3",
+        "blazed-labs/ice": "^1.1"
+    },
+    "config": {
+        "vendor-dir": "fuel/vendor",
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "fuel/{$name}": ["fuel/core"],
+            "{$name}": ["fuel/docs"]
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php oil r install"
+        ]
+    },
+    "minimum-stability": "stable"
+}

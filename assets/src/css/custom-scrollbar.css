@@ -1,0 +1,37 @@
+/*
+	@ custom scrollbar v 1.0 
+	@ author Tyler Ruff
+	@ publisher Blazed Labs LLC
+	@ license MIT
+	@ https://github.com/tyler-ruff/tyler-ruff/blob/main/Web-Gallery/CSS-Snippets/custom-scrollbar.css
+*/
+
+body::-webkit-scrollbar{
+    width:10px;
+}
+
+body::-webkit-scrollbar-track{
+    background:#727a8a;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:#afb4bd;
+    border-radius:20px;
+    border:1px solid #5b626e;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color:#5b626e;
+}
+
+::selection{
+    background:#333;
+    background:rgba(0, 0, 0, 0.6);
+    color:#fff;
+}
+
+::-moz-selection{
+    background:#333;
+    background:rgba(0, 0, 0, 0.6);
+    color:#fff;
+}

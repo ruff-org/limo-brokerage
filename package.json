@@ -1,0 +1,29 @@
+{
+  "name": "blz-ice-php",
+  "version": "1.0.0",
+  "description": "An awesome static site generator & server side framework for PHP/Fuel.",
+  "main": "README.md",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "install": "cd src && cd lib && composer install",
+    "update": "cs src && cd lib && composer update",
+    "dev": "php -S localhost:8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazed-space/blz-ice-php.git"
+  },
+  "keywords": [
+    "blz",
+    "ice"
+  ],
+  "author": "blazed-space",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blazed-space/blz-ice-php/issues"
+  },
+  "homepage": "https://github.com/blazed-space/blz-ice-php#readme"
+}

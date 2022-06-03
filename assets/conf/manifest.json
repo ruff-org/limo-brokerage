@@ -1,0 +1,21 @@
+{
+    "background_color": "#ffffff",
+    "theme_color": "#333333",
+    "name": "Blazed Labs",
+    "short_name": "BLZ-LABS",
+    "display": "minimal-ui",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=192&w=192",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash_black.png?h=512&w=512",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

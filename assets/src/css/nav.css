@@ -1,0 +1,19 @@
+/* navigation 
+- show navigation always on the large screen devices with (min-width:1024)
+*/
+
+#blz-menu{
+	display:inline-flex;
+}
+
+#blz-menu-mobile{
+	display:none;
+}
+
+@media (min-width: 1024px) {
+
+	#blz-menu{
+		display:none;
+	}
+
+}
