@@ -5,8 +5,7 @@
             class="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
             <div class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
                 <a class="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start pb-4">
-                    <img src="<?php echo Layout_Site::image(1); ?>" alt="Beaker Logo" />
-                    <img src="<?php echo Layout_Site::image(2); ?>" alt="BLZ Logo" />
+                    <img src="<?php echo Layout_Site::image(2); ?>" alt="Logo" />
                 </a>
                 
                 <hr />

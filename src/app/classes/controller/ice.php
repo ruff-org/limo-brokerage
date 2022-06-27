@@ -21,10 +21,14 @@ class Controller_Ice extends Controller{
 		if(!isset($this->layout->page)){
 			Response::redirect('/');
 		}
-        $this->layout->bundle = Layout_Ice::create_bundle($this->layout->page);
-        $this->layout->body = Layout_Ice::do_layout($this->layout->content, 
-        $this->layout->title, $this->layout->page, $this->layout->page_layout, $this->layout->auth,
-        $this->layout->page_data);
-        return Response::forge(\ice\Util_Mini::html($this->layout->render()));
+		if($this->layout->page !== 0){
+	        $this->layout->bundle = Layout_Ice::create_bundle($this->layout->page);
+	        $this->layout->body = Layout_Ice::do_layout($this->layout->content, 
+	        $this->layout->title, $this->layout->page, $this->layout->page_layout, $this->layout->auth,
+	        $this->layout->page_data);
+	        return Response::forge(\ice\Util_Mini::html($this->layout->render()));
+		} else {
+			return Response::forge($this->layout->response);
+		}
 	}
 }

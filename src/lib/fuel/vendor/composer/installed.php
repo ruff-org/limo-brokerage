@@ -164,12 +164,12 @@
             'dev_requirement' => false,
         ),
         'monolog/monolog' => array(
-            'pretty_version' => '1.27.0',
-            'version' => '1.27.0.0',
+            'pretty_version' => '1.27.1',
+            'version' => '1.27.1.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../monolog/monolog',
             'aliases' => array(),
-            'reference' => '52ebd235c1f7e0d5e1b16464b695a28335f8e44a',
+            'reference' => '904713c5929655dc9b97288b69cfeedad610c9a1',
             'dev_requirement' => false,
         ),
         'paragonie/random_compat' => array(
@@ -188,6 +188,15 @@
             'install_path' => __DIR__ . '/../paragonie/sodium_compat',
             'aliases' => array(),
             'reference' => 'ac994053faac18d386328c91c7900f930acadf1e',
+            'dev_requirement' => false,
+        ),
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.6.0',
+            'version' => '6.6.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => 'e43bac82edc26ca04b36143a48bde1c051cfd5b1',
             'dev_requirement' => false,
         ),
         'phpseclib/phpseclib' => array(

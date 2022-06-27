@@ -35,6 +35,31 @@ class Controller_Main extends Controller_Ice{
         $this->layout->page_layout = 'full';
         $this->layout->content = 'forgot';
     }
+    public function action_book(){
+    	$this->layout->page = 6;
+        $this->layout->title = "Book Reservation";
+        $this->layout->content = 'book';
+    }
+    public function action_accept($token){
+    	$this->layout->page = 8999;
+        $this->layout->title = "Accept Reservation";
+        $this->layout->content = 'dispatch/accept_job';
+        $get_link = Model_Link::find('all', array(
+		    'where' => array(
+		        array('token', $token),
+		    ),
+		    'limit' => 1,
+		));
+		if(!empty($get_link)){
+			$reservation = $get_link;
+			foreach ($reservation as $n => $res){
+				$get_reservation = Model_Reservation::find($res['reservation']);
+			}
+			if(!empty($get_reservation)){
+				$this->layout->page_data['reservation'] = $get_reservation;
+			}
+		}
+    }
     public function action_reset($selector, $token){
     	if($selector === "" || $token === ""){
     		Response::redirect('forgot');

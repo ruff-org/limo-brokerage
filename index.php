@@ -1,6 +1,6 @@
 <?php
 
-	error_reporting(-1); ini_set('display_errors', 1);
+	//error_reporting(-1); ini_set('display_errors', 1);
 
 	define('DOCROOT', __DIR__);
 	define('APPPATH', __DIR__.DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR .'app'.DIRECTORY_SEPARATOR);

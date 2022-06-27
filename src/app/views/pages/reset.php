@@ -20,7 +20,7 @@
 								Enter it below and your password will be reset.
 							</p>
 						</div>
-						<form method="post" action="<?php echo Uri::base(); ?>api/reset" class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
+						<form method="post" action="<?php echo Uri::base(); ?>auth/reset" class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
 							<div class="mb-4">
 								<label class="block mb-2 text-sm font-bold text-gray-700" for="field-password">
 									New Password

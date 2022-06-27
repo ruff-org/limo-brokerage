@@ -6,27 +6,25 @@
       >
         <img
           class="absolute inset-0 object-cover w-full h-full"
-          src="https://blazed.sirv.com/logo/john-mcmahon-ljjcoULkxL8-unsplash.jpg"
-          alt="Man using a computer"
+          src="https://blazed.sirv.com/RTM/limo/erik-mclean-iWFisgHaOhE-unsplash.jpg"
+          title="Photo by Erik Mclean on Unsplash"
         />
       </div>
 
       <div class="lg:py-24">
-        <h2 class="text-3xl font-bold sm:text-4xl">About Ice/PHP</h2>
+        <h2 class="text-3xl font-bold sm:text-4xl">About Limo Brokerage</h2>
 
         <p class="mt-4 text-gray-600">
-          PHP Ice is built with FuelPHP and BundleFU.
-          Authentication is also supported, out-of-the box; we use Delight-im/Auth.
-          This framework also includes various static tools and functions for static content generation.
+          This application allows users to create reservtions, whereas administrative accounts can assign
+          drivers to the reservtions. The drivers can then recieve a message to confirm the details of the reservation.
           <br />
-          <a class="text-red-500 hover:underline" href="<?php echo Uri::base(); ?>docs/">Explore Documentation</a>
         </p>
-
+		
         <a
-          class="inline-flex items-center px-8 py-3 mt-8 text-white bg-red-600 border border-red-600 rounded hover:bg-red-800 hover:text-white active:text-white focus:outline-none focus:ring"
-          href="https://github.com/blazed-space/blz-ice-php" target="_blank"
+          class="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue-600 border border-blue-600 rounded hover:bg-blue-800 hover:text-white active:text-white focus:outline-none focus:ring"
+          href="<?php echo Uri::base(); ?>book/"
         >
-          <span class="text-sm font-medium"> View on Github </span>
+          <span class="text-sm font-medium"> Book A Trip </span>
 
           <svg
             class="w-5 h-5 ml-3"
@@ -43,6 +41,7 @@
             />
           </svg>
         </a>
+
       </div>
     </div>
   </div>

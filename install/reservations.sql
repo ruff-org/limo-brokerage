@@ -12,7 +12,8 @@ CREATE TABLE `reservations` (
   `pickup_date` date NOT NULL,
   `pickup_time` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `pickup_info` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `driver` int(11) NOT NULL DEFAULT 0
+  `driver` int(11) NOT NULL DEFAULT 0,
+  `total_cost` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --

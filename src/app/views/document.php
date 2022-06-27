@@ -140,6 +140,20 @@
                         </noscript>
                     </div>
                     <!-- // -->
+					<!-- Include Places API on booking page only -->
+					<?php if($page === 6): ?>
+						<script
+						    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEprFGlHN9FTr8nQnAqU3BKI2nIgAeIdY&libraries=places">
+							function initMap(){
+								var input_pickup = document.getElementById('pickup-address');
+								var input_dropoff = document.getElementById('dropoff-address');
+								new google.maps.places.Autocomplete(input_pickup);
+								new google.maps.places.Autocomplete(input_dropoff);
+							}
+							google.maps.event.addDomListener(window, 'load', initMap);
+						</script>
+					<?php endif; ?>
+					<!-- // -->
                     <!-- Instant Page (instant.page) [Only included in Production] -->
                     <?php if($e === true): ?>
                         <script src="//instant.page/5.1.0" type="module" 

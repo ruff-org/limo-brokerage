@@ -1,0 +1,40 @@
+[07-Jun-2022 00:02:42 America/New_York] PHP Fatal error:  Uncaught ErrorException: Non-static method Common::execute() should not be called statically in /home/blaztmue/public_html/editor/components/codegit/traits/execute.php:13
+Stack trace:
+#0 /home/blaztmue/public_html/editor/components/codegit/traits/execute.php(13): {closure}(8192, 'Non-static meth...', '/home/blaztmue/...', 13, Array)
+#1 /home/blaztmue/public_html/editor/components/codegit/traits/status.php(42): CodeGit->execute('git diff --nums...')
+#2 /home/blaztmue/public_html/editor/components/codegit/controller.php(32): CodeGit->fileStatus('/home/blaztmue/...')
+#3 /home/blaztmue/public_html/editor/controller.php(41): require('/home/blaztmue/...')
+#4 {main}
+  thrown in /home/blaztmue/public_html/editor/components/codegit/traits/execute.php on line 13
+[07-Jun-2022 00:02:47 America/New_York] PHP Fatal error:  Uncaught ErrorException: Non-static method Common::execute() should not be called statically in /home/blaztmue/public_html/editor/components/codegit/traits/execute.php:13
+Stack trace:
+#0 /home/blaztmue/public_html/editor/components/codegit/traits/execute.php(13): {closure}(8192, 'Non-static meth...', '/home/blaztmue/...', 13, Array)
+#1 /home/blaztmue/public_html/editor/components/codegit/traits/status.php(42): CodeGit->execute('git diff --nums...')
+#2 /home/blaztmue/public_html/editor/components/codegit/controller.php(32): CodeGit->fileStatus('/home/blaztmue/...')
+#3 /home/blaztmue/public_html/editor/controller.php(41): require('/home/blaztmue/...')
+#4 {main}
+  thrown in /home/blaztmue/public_html/editor/components/codegit/traits/execute.php on line 13
+[07-Jun-2022 00:02:53 America/New_York] PHP Fatal error:  Uncaught ErrorException: Non-static method Common::execute() should not be called statically in /home/blaztmue/public_html/editor/components/codegit/traits/execute.php:13
+Stack trace:
+#0 /home/blaztmue/public_html/editor/components/codegit/traits/execute.php(13): {closure}(8192, 'Non-static meth...', '/home/blaztmue/...', 13, Array)
+#1 /home/blaztmue/public_html/editor/components/codegit/traits/status.php(42): CodeGit->execute('git diff --nums...')
+#2 /home/blaztmue/public_html/editor/components/codegit/controller.php(32): CodeGit->fileStatus('/home/blaztmue/...')
+#3 /home/blaztmue/public_html/editor/controller.php(41): require('/home/blaztmue/...')
+#4 {main}
+  thrown in /home/blaztmue/public_html/editor/components/codegit/traits/execute.php on line 13
+[07-Jun-2022 00:03:17 America/New_York] PHP Fatal error:  Uncaught ErrorException: Non-static method Common::execute() should not be called statically in /home/blaztmue/public_html/editor/components/codegit/traits/execute.php:13
+Stack trace:
+#0 /home/blaztmue/public_html/editor/components/codegit/traits/execute.php(13): {closure}(8192, 'Non-static meth...', '/home/blaztmue/...', 13, Array)
+#1 /home/blaztmue/public_html/editor/components/codegit/traits/status.php(42): CodeGit->execute('git diff --nums...')
+#2 /home/blaztmue/public_html/editor/components/codegit/controller.php(32): CodeGit->fileStatus('/home/blaztmue/...')
+#3 /home/blaztmue/public_html/editor/controller.php(41): require('/home/blaztmue/...')
+#4 {main}
+  thrown in /home/blaztmue/public_html/editor/components/codegit/traits/execute.php on line 13
+[07-Jun-2022 00:05:27 America/New_York] PHP Fatal error:  Uncaught ErrorException: Non-static method Common::execute() should not be called statically in /home/blaztmue/public_html/editor/components/codegit/traits/execute.php:13
+Stack trace:
+#0 /home/blaztmue/public_html/editor/components/codegit/traits/execute.php(13): {closure}(8192, 'Non-static meth...', '/home/blaztmue/...', 13, Array)
+#1 /home/blaztmue/public_html/editor/components/codegit/traits/status.php(42): CodeGit->execute('git diff --nums...')
+#2 /home/blaztmue/public_html/editor/components/codegit/controller.php(32): CodeGit->fileStatus('/home/blaztmue/...')
+#3 /home/blaztmue/public_html/editor/controller.php(41): require('/home/blaztmue/...')
+#4 {main}
+  thrown in /home/blaztmue/public_html/editor/components/codegit/traits/execute.php on line 13

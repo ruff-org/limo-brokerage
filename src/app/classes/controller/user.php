@@ -12,6 +12,12 @@ class Controller_User extends Controller_Ice{
 			$user = Model_User::find($id);
 		}
 		if($user === null){ Response::redirect('/'); }
+		
+		// Redirect to dashboard, if admin user
+		if($this->layout->auth->hasRole(\Delight\Auth\Role::ADMIN)){
+			Response::redirect('dashboard');
+		} 
+		
 		$this->layout->page_data['user'] = $user;
     	$this->layout->page = 7;
         $this->layout->title = "User's Profile";

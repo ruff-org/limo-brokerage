@@ -36,7 +36,7 @@
   }
 </style>
 <div class="h-screen bg-gradient-to-br from-blue-700 to-blue-600 flex justify-center items-center w-full content-body">
-  <form method="post" action="<?php echo Uri::base(); ?>api/post/register">
+  <form method="post" action="<?php echo Uri::base(); ?>auth/register">
   	<br /> <br /> <br />
     <div class="bg-white px-10 lg:my-10 lg:rounded-xl lg:w-screen shadow-md lg:max-w-sm sm:w-full login-box">
       <div class="space-y-4">

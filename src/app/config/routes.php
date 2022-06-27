@@ -13,16 +13,23 @@ return array(
     'profile' => 'user/profile/me',
     'profile/(:any)' => 'user/profile/$1',
     'account' => 'user/account',
-    
-    'docs' => 'help/docs/home',
-    'docs/(:any)' => 'help/docs/$1',
+    'book' => 'main/book',
+    'dashboard' => 'dispatch/dashboard',
+    'view/(:any)' => 'dispatch/view/$1',
+    'add_driver' => 'dispatch/adddriver',
+    'edit_driver/(:any)' => 'dispatch/editdriver/$1',
+    'add_rule' => 'dispatch/addrule',
+    'edit_rule/(:any)' => 'dispatch/editrule/$1',
+    'accept/(:any)' => 'main/accept/$1',
 
 	// REST API
 	//'api/v1-0/GET/(:any)/(:any)' => 'api/get/$1/$2',
 	//'api/v1-0/POST/(:any)' => 'api/post/$1',
 	
 	'submit/(:any)' => 'api/post/$1',
-	'logout' => 'api/logout',
+	'api/(:any)' => 'javascript/ajax/$1',
+	'auth/(:any)' => 'auth/post/$1',
+	'logout' => 'auth/logout',
 
 	/**
 	 * -------------------------------------------------------------------------

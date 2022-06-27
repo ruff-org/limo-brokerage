@@ -18,7 +18,7 @@
 								link to reset your password!
 							</p>
 						</div>
-						<form method="post" action="<?php echo Uri::base(); ?>api/forgot" class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
+						<form method="post" action="<?php echo Uri::base(); ?>auth/forgot" class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
 							<div class="mb-4">
 								<label class="block mb-2 text-sm font-bold text-gray-700" for="field-email">
 									Email

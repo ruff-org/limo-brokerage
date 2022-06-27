@@ -33,12 +33,15 @@ class Layout_Site{
     const brand_site = 'https://blazedlabs.com/';
     const site_dir = 'ltr';
     const site_lang = 'en';
-    const site_name  = 'Blazed Ice PHP';
+    const site_name  = 'Limo Brokerage';
     const site_color = '#333333';
-    const site_desc = 'Public demo of Ice for FuelPHP.';
+    const site_desc = 'Brokerage management system and dispatch application.';
     const email = 'hello@blazed.space';
     const phone = '1-855-788-2348';
-    const motto = 'Blazed Labs LLC - We turn dreams into reality.';
+    const motto = 'limo brokerage';
+    
+    const img_path = 'assets/img/drivers/';
+    
     /*
         Example social array.
     */
@@ -58,7 +61,7 @@ class Layout_Site{
         'unpkg.com'
     );
     /* // */
-    const favicon = 'https://blazed.sirv.com/logo/Beaker-Dark.png';
+    const favicon = 'https://blazed.sirv.com/RTM/limo/cone.png';
     /*
 		get_social
 		Returns a list of social media profiles
@@ -94,13 +97,13 @@ class Layout_Site{
         $z = '';
         switch($e){
             case 0:
-                $z = 'https://blazed.sirv.com/logo/Beaker-White.png?h=40&w=40';
+                $z = 'https://blazed.sirv.com/RTM/limo/cone.png?h=40&w=40';
                 break;
             case 1:
-                $z = 'https://blazed.sirv.com/logo/Beaker-Dark.png?h=50&w=50';
+                $z = 'https://blazed.sirv.com/RTM/limo/cone.png?h=50&w=50';
                 break;
             case 2:
-                $z = 'https://blazed.sirv.com/logo/BLZ-blue.png?h=50&w=50';
+                $z = 'https://blazed.sirv.com/RTM/limo/cone.png?h=50&w=50';
                 break;
             case 3:
                 $z = 'https://blazed.sirv.com/logo/Wallpaper-Beaker.png';
@@ -114,7 +117,7 @@ class Layout_Site{
     /*
         Layout_Site::nav_title = Top menu text.
     */
-    const nav_title = 'blz';
+    const nav_title = 'limo';
 
     /*
         Layout_Site::nav_menu()
